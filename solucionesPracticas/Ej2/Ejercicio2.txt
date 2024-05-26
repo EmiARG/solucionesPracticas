@@ -1,0 +1,12 @@
+Algoritmo calcular_costo_pintura
+    Definir montoFijoM2, m2APintar, calcularCosto Como Entero
+
+    montoFijoM2 <- 3000
+
+    Escribir "Coloque cuantos metros cuadrados desea pintar: "
+    Leer m2APintar
+
+    calcularCosto <- montoFijoM2 * m2APintar
+
+    Escribir "El costo de mano de obra es de: $ ", calcularCosto
+FinAlgoritmo

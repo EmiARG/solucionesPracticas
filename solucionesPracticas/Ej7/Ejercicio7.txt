@@ -1,0 +1,16 @@
+Algoritmo verificar_descuento_boleto
+    Definir edad Como Entero
+    Definir esEstudiante Como Carácter
+
+    Escribir "Ingrese su edad: "
+    Leer edad
+
+    Escribir "Si es estudiante ingrese si: "
+    Leer esEstudiante
+
+    Si edad < 18 O esEstudiante = "si" Entonces
+        Escribir "Tienes descuento en el boleto"
+    Sino
+        Escribir "Tienes que pagar la totalidad del boleto"
+    FinSi
+FinAlgoritmo

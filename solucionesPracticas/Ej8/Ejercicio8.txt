@@ -1,0 +1,10 @@
+Algoritmo imprimir_numeros_hasta_n
+    Definir numero, i Como Entero
+
+    Escribir "Ingresar un numero: "
+    Leer numero
+
+    Para i <- 0 Hasta numero Paso 1 Hacer
+        Escribir i
+    FinPara
+FinAlgoritmo

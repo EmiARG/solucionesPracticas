@@ -1,0 +1,13 @@
+Algoritmo calcular_promedio
+    Definir notaMateria1, notaMateria2, notaMateria3, notaMateria4, notaMateria5, promedio Como Real
+
+    notaMateria1 <- 4
+    notaMateria2 <- 10
+    notaMateria3 <- 5
+    notaMateria4 <- 8
+    notaMateria5 <- 10
+
+    promedio <- (notaMateria1 + notaMateria2 + notaMateria3 + notaMateria4 + notaMateria5) / 5
+
+    Escribir "El promedio es: ", promedio
+FinAlgoritmo

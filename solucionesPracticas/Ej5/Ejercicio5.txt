@@ -1,0 +1,12 @@
+Algoritmo verificar_entrada_espectaculo
+    Definir entrada Como Carácter
+
+    Escribir "Posee entrada para el espectáculo SI/NO: "
+    Leer entrada
+
+    Si entrada = "SI" Entonces
+        Escribir "Puede ingresar al establecimiento"
+    Sino
+        Escribir "Tiene que ir a buscarla por ventanilla"
+    FinSi
+FinAlgoritmo

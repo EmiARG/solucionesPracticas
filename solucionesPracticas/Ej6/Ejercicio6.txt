@@ -1,0 +1,12 @@
+Algoritmo verificar_renovacion_carnet
+    Definir edad Como Entero
+
+    Escribir "Coloque su edad: "
+    Leer edad
+
+    Si edad >= 18 Y edad < 80 Entonces
+        Escribir "Podrá renovar el carnet"
+    FinSi
+
+    Escribir "Buenas Tardes"
+FinAlgoritmo

@@ -1,0 +1,12 @@
+Algoritmo imprimir_numeros_pares_hasta_n
+    Definir numero, i Como Entero
+
+    Escribir "Ingrese un numero: "
+    Leer numero
+
+    Para i <- 0 Hasta numero Paso 1 Hacer
+        Si i MOD 2 = 0 Entonces
+            Escribir i
+        FinSi
+    FinPara
+FinAlgoritmo

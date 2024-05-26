@@ -1,0 +1,18 @@
+Algoritmo calcular_puntos_temporada
+    Definir partidoGanado, partidoEmpatado, partidoPerdido, cantidadGanados, cantidadEmpatados, cantidadPerdidos, puntosConseguidos Como Entero
+
+    partidoGanado <- 3
+    partidoEmpatado <- 1
+    partidoPerdido <- 0
+
+    Escribir "Coloque cuantos partidos ganaron en la temporada: "
+    Leer cantidadGanados
+    Escribir "Coloque cuantos partidos empataron en la temporada: "
+    Leer cantidadEmpatados
+    Escribir "Coloque cuantos partidos perdieron en la temporada: "
+    Leer cantidadPerdidos
+
+    puntosConseguidos <- (cantidadGanados * partidoGanado) + (cantidadEmpatados * partidoEmpatado)
+
+    Escribir "La cantidad de puntos conseguidos en la temporada: ", puntosConseguidos
+FinAlgoritmo

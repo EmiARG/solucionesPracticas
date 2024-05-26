@@ -1,0 +1,12 @@
+Algoritmo evaluar_transferencia
+    Definir transferencia Como Real
+
+    Escribir "Ingrese el monto a transferir: "
+    Leer transferencia
+
+    Si transferencia > 200000 Entonces
+        Escribir "Esta transferencia será evaluada por AFIP"
+    FinSi
+
+    Escribir "Gracias por elegirnos"
+FinAlgoritmo

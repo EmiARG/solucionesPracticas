@@ -1,0 +1,17 @@
+Algoritmo ingresar_nombres
+    Definir nombres Como Lista de Caracteres
+    Definir nombre Como Carácter
+
+    mientras Verdadero Hacer
+        Escribir "Ingresar nombres, escribe 'fin' para finalizar: "
+        Leer nombre
+        Si nombre = "fin" Entonces
+            Salir del Mientras
+        FinSi
+        nombres <- agregar(nombre, nombres)
+    FinMientras
+    
+    Para cada nombre en nombres Hacer
+        Escribir nombre
+    FinPara
+FinAlgoritmo
